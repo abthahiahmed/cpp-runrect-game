@@ -10,7 +10,6 @@
 // RunRect Headers
 #include "Player.h"
 #include "Ground.h"
-#include "GameButton.h"
 
 
 using namespace std;
@@ -53,11 +52,6 @@ private:
 	TTF_Font *font_s_60;
 	TTF_Font *font_s_90;
 	TTF_Font *font_s_16;
-	
-	
-	
-	
-	vector<GameButton> buttons;
 
 	void update();
 	void handleEvent();
